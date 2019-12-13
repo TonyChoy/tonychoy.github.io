@@ -1,0 +1,164 @@
+body {
+	font-family: Helvetica, sans-serif;
+	line-height: 1.5em;
+	padding: 15px;
+}
+
+.container {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+a,
+a:link,
+a:visited {
+	color: blue;
+}
+/* index.html css */
+.highlight {
+	background-color: orange;
+}
+
+p {margin: 0 0 1em 0;}
+
+.ui-message {
+	background-color: #FFF1C7;
+	border: 5px solid #F2E1AC;
+	padding: 10px 30px 10px 15px;
+	margin: 0 0 1em 0;
+	font-weight: bold;
+	font-size: 13px;
+	position: relative;
+}
+
+.ui-message p {
+	margin: 0;
+}
+
+.ui-close {
+	background-color: #F2E1AC;
+	color: #8A7A49;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 1px 6px;
+	cursor: pointer;
+}
+
+.ui-close:hover {
+	background-color: #8A7A49;
+	color: #F2E1AC;
+}
+
+.faq-question {
+	color: blue;
+	cursor: pointer;
+}
+
+.img-right {
+	max-width: 50%;
+	float: right;
+	margin: 0 0 1em 15px;
+}
+
+.about-placeholder {
+	background-color: #F1FAD2;
+	padding: 10px 15px;
+	border: 5px solid #DDE8B7;
+	margin: 0 0 1em 0;
+	font-size: 13px;
+}
+
+#about {
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/*  about.html css */
+.status,.imgPos{
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: #000;
+	color: #FFF;
+	z-index: 900;
+}
+.imgPos{
+    top: 50px;
+}
+
+.status-bottom {
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: #000;
+	color: #FFF;
+	z-index: 901;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 1em;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 48%;
+}
+
+.columns {
+	padding-bottom: 20px;
+}
+
+li {
+	list-style: inside;
+	background-color: #ebf6fe;
+	padding: 7px;
+	margin-bottom: 10px;
+	border: 4px solid #d9e8f3;
+}
+
+aside {
+	float: right;
+	width: 48%;
+	background-color: #ffe5b2;
+	padding: 20px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 4px solid #efd39d;
+}
+
+.container {
+	max-width: 700px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
+
+
+#obj{
+  position:relative;
+  width:50px;
+  line-height:50px;
+  background:#23ac0e;
+  border-radius:5px;
+  color:#fff;
+  text-align:center;
+}
